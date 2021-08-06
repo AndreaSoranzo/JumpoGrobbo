@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Platform
+  - Destroyer
+  - StartPlatform
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackGround
+    uniqueID: 3238877141
+    locked: 0
+  - name: ScoreUI
+    uniqueID: 1953880377
+    locked: 0
+  - name: Platforms
+    uniqueID: 4076800811
+    locked: 0
+  - name: Player
+    uniqueID: 2382456273
+    locked: 0
+  - name: GeneralUI
+    uniqueID: 4261652167
+    locked: 0
