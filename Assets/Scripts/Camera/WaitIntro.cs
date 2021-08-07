@@ -14,10 +14,10 @@ namespace TheWoodenLoft.Camera {
 		[SerializeField] private VideoPlayer videoPlayer;
 
 		private void Start() {
-			videoPlayer.started += go;
+			videoPlayer.started += Wait;
 		}
 
-		private void go(VideoPlayer videoPlayer) {
+		private void Wait(VideoPlayer videoPlayer) {
 			StartCoroutine(WaitForVideoEnd());
 		}
 
@@ -27,7 +27,7 @@ namespace TheWoodenLoft.Camera {
 		}
 
 		private void OnDisable() {
-			videoPlayer.started -= go;
+			videoPlayer.started -= Wait;
 		}
 	}
 }
