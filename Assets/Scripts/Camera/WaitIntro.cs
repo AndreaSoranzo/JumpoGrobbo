@@ -22,7 +22,7 @@ namespace TheWoodenLoft.Camera {
 		}
 
 		private IEnumerator WaitForVideoEnd() {
-			yield return new WaitForSeconds((float)videoPlayer.length+1);
+			yield return new WaitForSeconds((float)videoPlayer.length+2);
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 		}
 
